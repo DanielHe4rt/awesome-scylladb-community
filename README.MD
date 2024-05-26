@@ -31,6 +31,11 @@ A curated list of awesome ScyllaDB projects, libraries, and tools in various pro
 - **[Getting Started with ScyllaDB Cloud Using Node.js](https://www.scylladb.com/2023/03/02/getting-started-with-scylladb-cloud-using-node-js-part-1/)**: A step-by-step guide to building a simple Node.js application with ScyllaDB Cloud. The tutorial covers setting up the environment, creating a cluster, connecting to the cluster, and performing CRUD operations using JavaScript​ ([ScyllaDB](https://www.scylladb.com/2023/03/02/getting-started-with-scylladb-cloud-using-node-js-part-1/))​.
 - **[IoT App with JavaScript](https://iot.scylladb.com/stable/build-with-javascript.html)**: This tutorial demonstrates building an IoT application that uses ScyllaDB as the backend database. It includes instructions on setting up the database schema, simulating sensor data, and periodically saving data to the database using Node.js​ ([ScyllaDB IoT](https://iot.scylladb.com/stable/build-with-javascript.html))​.
 
+### Elixir
+
+- **[Xandra](https://github.com/whatyouhide/xandra)**: A modern, Cassandra and ScyllaDB driver built natively in Elixir and focused on speed, simplicity, and robustness. This driver works exclusively with the Cassandra Query Language v3 (CQL3) and native protocol v3, v4 and v5. This driver can be installed from source or using the [hex package](https://hex.pm/packages/xandra).
+- **[Getting Started with ScyllaDB Cloud Using Elixir](https://cloud-getting-started.scylladb.com/stable/build-with-elixir)**: A step-by-step guide to build a simple Elixir application with ScyllaDB Cloud. This tutorial covers setting up the project, connecting to the cluster, and performing CRUD operations using Elixir.
+
 ## Documentation Tools
 
 ### Sphinx
