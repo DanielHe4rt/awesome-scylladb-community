@@ -38,6 +38,11 @@ A curated list of awesome ScyllaDB projects, libraries, and tools in various pro
 - **[Scylla CDC Source Connector](https://github.com/scylladb/scylla-cdc-source-connector)**: Scylla CDC Source Connector is a source connector capturing row-level changes in the tables of a Scylla cluster. It is a Debezium connector, compatible with Kafka Connect (with Kafka 2.6.0+) and built on top of scylla-cdc-java library. The connector reads the CDC log for specified tables and produces Kafka messages for each row-level INSERT, UPDATE or DELETE operation. The connector is able to split reading the CDC log accross multiple processes: the connector can start a separate Kafka Connect task for reading each Vnode of Scylla cluster allowing for high throughput. You can limit the number of started tasks by using tasks.max property.
 - **[Scylla CDC Java](https://github.com/scylladb/scylla-cdc-java)**: scylla-cdc-java is a library that makes it easy to develop Java applications consuming the Scylla CDC log. The library automatically and transparently handles errors and topology changes of the underlying Scylla cluster. It provides a simple API for reading the CDC log, as well as examples and ready-made tools, such as replicator.
 
+### Elixir
+
+- **[Xandra](https://github.com/whatyouhide/xandra)**: A modern, Cassandra and ScyllaDB driver built natively in Elixir and focused on speed, simplicity, and robustness. This driver works exclusively with the Cassandra Query Language v3 (CQL3) and native protocol v3, v4 and v5. This driver can be installed from source or using the [hex package](https://hex.pm/packages/xandra).
+- **[Getting Started with ScyllaDB Cloud Using Elixir](https://cloud-getting-started.scylladb.com/stable/build-with-elixir)**: A step-by-step guide to build a simple Elixir application with ScyllaDB Cloud. This tutorial covers setting up the project, connecting to the cluster, and performing CRUD operations using Elixir.
+
 ## Documentation Tools
 
 ### Sphinx
