@@ -12,6 +12,7 @@ A curated list of awesome ScyllaDB projects, libraries, and tools in various pro
 
 - **[GocqlX](https://github.com/scylladb/gocqlx)**: A comprehensive Go library for ScyllaDB and Cassandra, featuring CQL query building, ORM functionalities, and migration tools. It simplifies data binding and query execution​ ([GitHub](https://github.com/scylladb/gocqlx))​.
 - **[Scylla Go Driver](https://github.com/scylladb/scylla-go-driver)**: An experimental, high-performance Go driver created by students at the University of Warsaw. It supports token-aware and shard-aware routing, prepared statements, and compression​ ([GitHub](https://github.com/scylladb/scylla-go-driver))​.
+- **[Getting Started with ScyllaDB Cloud Using Go](https://cloud-getting-started.scylladb.com/stable/build-with-golang.html)**: A step-by-step guide to building a simple Go application with ScyllaDB Cloud. The tutorial covers setting up the environment, creating a cluster, connecting to the cluster, and performing CRUD operations using Go.
 
 ### Rust
 
@@ -19,6 +20,7 @@ A curated list of awesome ScyllaDB projects, libraries, and tools in various pro
 - **[Charybdis](https://github.com/nodecosmos/charybdis)**: A Rust ORM for ScyllaDB and Apache Cassandra. It supports automatic migration generation, insertion, and querying of data, making it easier to interact with ScyllaDB in a Rust application​ ([GitHub](https://github.com/nodecosmos/charybdis))​.
 - **[Rust S3 ScyllaDB](https://github.com/javiramos1/rust-s3-scylladb)**: This project provides a real-world example of integrating AWS S3 and ScyllaDB using Rust. It demonstrates how to create ultra-fast REST APIs with Actix Web, manage credentials, ingest data from S3 into ScyllaDB, and perform graph data modeling for fast traversals​ ([GitHub](https://github.com/javiramos1/rust-s3-scylladb))​.
 - **[Scylla Rust UDF](https://github.com/scylladb/scylla-rust-udf)**: A helper library for writing user-defined functions (UDFs) in pure Rust for ScyllaDB. It allows developers to write UDFs that are compiled to WebAssembly (Wasm) and used within ScyllaDB, although it is still an experimental feature​ ([GitHub](https://github.com/scylladb/scylla-rust-udf))​.
+- **[Getting Started with ScyllaDB Cloud Using Rust](https://cloud-getting-started.scylladb.com/stable/build-with-rust.html)**: A step-by-step guide to building a simple Rust application with ScyllaDB Cloud. The tutorial covers setting up the environment, creating a cluster, connecting to the cluster, and performing CRUD operations using Rust.
 
 ### PHP
 
